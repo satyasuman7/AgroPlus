@@ -1,0 +1,346 @@
+@import url(http://fonts.googleapis.com/css?family=Passion+One);
+
+body{
+	font-family: 'Advent Pro', sans-serif;
+}
+/****************************************** HEADER SECTION STARTS*************************************************/
+#icon{
+	font-size:40px;
+}
+.fa-brands:hover{
+	color:red;
+	transition:0.5s;
+}
+/****************************************** HEADER SECTION ENDS*************************************************/
+
+
+/****************************************** NAVBAR SECTION ENDS*************************************************/
+.navbar-dark .navbar-nav .nav-link  {
+	padding: 30px 15px;
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+/****************************************** NAVBAR SECTION ENDS*************************************************/
+
+
+/****************************************** CONTENT SECTION STARTS***********************************************/
+
+#content{
+	background-image:url(../images/body-bg.gif);
+	color:white;
+	border-bottom:2px solid #717171;
+}
+ #content h2{
+  margin-left:20px;	
+	font-family: 'Passion One', cursive;
+  font-size:45px;
+ }
+ 
+#ourProducts{
+	padding-top:30px;
+} 
+ 
+ .product-content{
+	margin:25px 20px 20px 20px;
+	width:200px;
+	padding:10px;
+ }
+ .products img{
+	width:170px;
+ }
+ .products h4{
+	 color:#EAC117;
+ }
+ .products p{
+	 color:#717171;
+ }
+ .products h4, p{
+	text-align:left;
+	margin-top:20px;
+ }
+
+#welcome-content{
+	padding-top:30px;
+}
+ #welcome-content h2{
+	 margin-left:0px;
+	 color:#e30022;
+ }
+ #welcome-content p{
+	 padding:15px;
+	 color:#717171;
+ }
+/****************************************** CONTENT SECTION ENDS*************************************************/
+
+/******************************************	FOOTER SECTION STARTS********************************************/
+
+
+#content-1{
+	background-image:url(../images/body-bg.gif);
+	color:#717171;
+}
+ #content-1 .content-1-2{
+	padding:50px 20px 50px 20px;
+ }
+ 
+ #copyright{
+	text-decoration:none;
+	color:red;
+}
+.footer-logo {
+	font-weight:normal;
+	font-size:24px;
+	line-height:30px;
+	font-family: 'Passion One', cursive;
+	color:white;
+	margin:-7px 0 0 0;
+	display:inline-block;
+}
+	.plus{
+		color:#EAC117;
+	}
+ 
+ .heading-1{
+	 color:red;
+	 font-family: 'Passion One', cursive;
+	 font-size:24px;
+ }
+.footer-list{
+	list-style:none;
+	float:right;
+}
+	.footer-list li {
+		background:url(../images/list-1-marker.gif) no-repeat 0 6px;
+		font-size:12px;
+		line-height:18px;
+		padding:0 0 10px 14px;
+	}
+		.footer-list li a{
+			text-decoration:none;
+			color:#717171;
+		}
+		.footer-list li a:hover{
+			color:white;
+		}
+		.footer-list-1{
+			position:relative;
+			right:45%;
+		}
+		.footer-list-2{
+			position:relative;
+			right:45%;
+		}
+		.footer-list-3{
+			position:relative;
+			right:30%;
+		}
+ 
+.social-list{
+	list-style:none;
+	float:right;
+}
+.social-list li a{
+	display:inline-block;
+	width:27px;
+	height:24px;
+	background:#717171;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+	.social-list li a:hover{
+		background-color:red;
+	}
+  
+
+
+/******************************************	FOOTER SECTION ENDS********************************************/
+
+/*****************************************************************************************************************************/
+/***************************************************	OTHER PAGES CSS	*******************************************************/
+
+/**************************************	PRODUCTS CONTENT SECTION STARTS **************************************/
+section#content {
+	position:relative;
+	z-index:1;
+}
+.content-bg {
+	background:url(../images/body-bg.gif);
+	padding:35px 0 43px;
+}
+
+.product-content-2{
+	padding:30px;
+}
+/**************************************	PRODUCTS CONTENT SECTION ENDS **************************************/
+
+/**************************************	CONTACTS CONTENT SECTION STARTS*************************************/
+ .contact-info p{
+	 color:#EAC117;
+ }
+	.contact-info h3{
+		margin-left:20px;
+		margin-top:20px;
+		font-family: 'Passion One', cursive;
+		font-size:45px
+	}
+		.contact-address{
+			margin-left:20px;
+		}
+	
+	.address dt{
+		display:block;
+		font-weight:normal;
+		color:#717171;
+		font-size:18px;
+		line-height:25px;
+		width:235px;
+	}
+	.address dd {
+		font-size:18px;
+		line-height:25px;
+		color:#717171;
+		overflow:hidden;
+	}
+	.address dd span {
+		float:left;
+		width:75px;
+		text-align:right;
+		margin:3px 18px 5px 0px;
+	}
+		.address dd a{
+			color:white;
+		}
+	
+	.contact-form h3{
+		margin:20px 0px 15px 0px;
+		font-family: 'Passion One', cursive;
+		font-size:45px
+	}
+/**************************************	CONTACTS CONTENT SECTION ENDS*************************************/ 
+
+/**************************************	PRICING CONTENT SECTION STARTS*************************************/ 
+.didyouknow h3{
+	margin:20px 0px 15px 0px;
+	font-family: 'Passion One', cursive;
+	font-size:45px
+}
+.p1{
+	padding-bottom: 6px;
+}
+	.str-2{
+		color:#EAC117;
+	}
+
+.img-indent-bot {
+  margin: 5px 0 16px 0;
+}
+
+.alignright{
+	text-align: right;
+	margin-bottom:50px;
+}
+	.button{
+    font-size: 16px;
+    color: #EAC117;
+    text-decoration: underline;
+    background: url(../images/link-marker.gif) no-repeat right 7px;
+    padding: 0 15px 0 0;
+	}
+		.button:hover{
+			text-decoration:none;
+			color:#EAC117;
+		}
+
+.ourprices h3{
+	margin:20px 0px 15px 28px;
+	font-family: 'Passion One', cursive;
+	font-size:45px; 
+}
+.price-list li {
+	overflow:hidden;
+	font-size:16px;
+	line-height:18px;
+	padding:0 0 12px 14px;
+	background:url(../images/list-1-marker.gif) no-repeat 0 5px;
+}
+	.price-item {
+		float:left;
+		color:#717171;
+		text-decoration:none;
+		max-width:70%;
+		margin:0 6px 0 0;
+	}
+	 .price-item:hover {
+			color:white;
+		}
+	.price {
+		float:right;
+		margin:0 0 0 6px;
+		width:200px;
+		text-align:left;
+		color:#b30404;
+	}
+	
+/**************************************	PRICING CONTENT SECTION ENDS*************************************/ 
+
+
+/**************************************	TECHNOLOGY CONTENT SECTION STARTS*************************************/ 
+.agroTechnology h3{
+	margin:20px 0px 15px 40px;
+	font-family: 'Passion One', cursive;
+	font-size:45px; 
+}
+.img-indent{
+	width:260px;
+	height:150px;
+}
+	.extra-wrap dt a{
+		text-decoration:none;
+		color:#EAC117;
+	}
+		.extra-wrap dt a:hover{
+			text-decoration:underline;
+		}
+	.extra-wrap dd{
+		color:#717171;
+		padding-left:35px;
+	}
+
+.qualityStandards h3{
+	margin:20px 0px 15px 0px;
+	font-family: 'Passion One', cursive;
+	font-size:45px;
+}	
+.wrapper span{
+	float: left;
+  font-family: 'Passion One', cursive;
+  font-size: 24px;
+  line-height: 81px;
+  color: red;
+  margin: 0 5px 0 0;
+}
+	.pad-top{
+		padding-top: 8px;
+	}
+		.p0{
+			font-weight: bold;
+			text-transform: uppercase;
+			color:red;
+		}
+		.p2{
+			text-align: left;
+			margin:20px 0 20px 28px;
+			padding-bottom: 15px;
+		}
+	.para-2{
+		color:#717171;
+	}
+
+/**************************************	TECHNOLOGY CONTENT SECTION ENDS*************************************/ 
+
+
+
